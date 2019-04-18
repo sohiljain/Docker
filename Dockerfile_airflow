@@ -13,6 +13,7 @@ set -ex \
     default-libmysqlclient-dev \
     python3.7 python3-pip python3-dev python3-virtualenv \
     oracle-java8-installer \
+    erl rabbitmq-server \
     rsync \
 && useradd -ms /bin/bash -d /usr/local/airflow airflow \
 && pip3 install -U pip setuptools wheel \
